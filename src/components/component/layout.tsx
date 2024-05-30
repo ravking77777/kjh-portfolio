@@ -38,9 +38,7 @@ export function Layout() {
               Game Designer | Passionate about creating immersive experiences
             </p>
             <p className="mt-6 text-gray-400">
-              With over a decade of experience in the gaming industry, I have developed a diverse portfolio of
-              award-winning titles that have captivated audiences worldwide. My passion for storytelling and innovative
-              gameplay mechanics has driven me to push the boundaries of what's possible in the medium.
+              내용 예시
             </p>
           </div>
         </div>
@@ -115,9 +113,7 @@ export function Layout() {
                 game engines and programming languages, allowing me to bring my creative visions to life.
               </p>
               <p className="mt-4 text-gray-600 dark:text-gray-400">
-                My passion for storytelling and creating immersive experiences has been the driving force behind my
-                work. I am constantly seeking new challenges and opportunities to push the boundaries of what's possible
-                in the medium of video games.
+                내용 예시
               </p>
             </div>
             <div>
