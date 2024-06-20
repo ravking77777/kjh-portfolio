@@ -191,8 +191,8 @@ export default function Home() {
               아래는 게임 공모전, 시연 등의 이력들입니다.
             </p>
             <ul className="mt-4 list-disc space-y-2 pl-6 text-gray-400">
-              <li>Global Game Challenge 2019 Awards Gold Prize </li>
-              <li>Busan Indie Connect Festival 2019 Official Selection -Rookie Division-</li>
+              <li>글로벌 게임 챌린지 2019 (Global Game Challenge 2019) 금상 수상</li>
+              <li>부산 인디커넥트 페스티벌 2019 루키부문 시연</li>
             </ul>
           </div>
         </div>
