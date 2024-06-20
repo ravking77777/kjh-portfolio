@@ -141,7 +141,7 @@ export default function Home() {
             <h3 className="text-2xl  text-gray-200">넥크소울</h3>
             <h4 className="-m-2 mb-3 text-xl font-normal text-gray-500 text-right">2021</h4>
             <p className="text-gray-300">
-              방송인을 위해 제작된 5분 남짓의 짧은 팬게임입니다. 프롬 소프트웨어의 대표작 '다크소울'을 패러디 하였으며, 해당 방송의 밈을 적절히 섞어 시청자들에게 웃음을 자아냈습니다.
+            방송인을 위해 제작된 5분 남짓의 짧은 팬게임입니다. 프롬 소프트웨어의 대표작 다크소울을 패러디 하였으며, 해당 방송의 밈을 적절히 섞어 시청자들에게 웃음을 자아냈습니다.
             </p>
           </div>
           <div className="rounded-lg bg-gray-100 p-6 shadow-md bg-gray-800">
@@ -163,7 +163,7 @@ export default function Home() {
             <h3 className="text-2xl  text-gray-200">원더러(Wanderer)</h3>
             <h4 className="-m-2 mb-3 text-xl font-normal text-gray-500 text-right">2017</h4>
             <p className="text-gray-300">
-              본격적으로 게임개발에 뛰어들기 전에 완성했던 액션 RPG 게임 'Wanderer'입니다. 투박한 레트로 스타일의 도트 그래픽과 다양한 무기 스킬로 적들을 쓸어버리는 액션요소가 특징입니다.
+              본격적으로 게임개발에 뛰어들기 전에 완성했던 액션 RPG 게임 Wanderer입니다. 투박한 레트로 스타일의 도트 그래픽과 다양한 무기 스킬로 적들을 쓸어버리는 액션요소가 특징입니다.
             </p>
           </div>
         </div>
