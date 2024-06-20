@@ -17,7 +17,7 @@ export default function Home() {
       </div>
       <div className="relative container mx-auto px-4 md:px-6">
         <div className="mx-auto max-w-3xl text-center">
-          <h1 className="text-4xl font-bold tracking-tight text-gray-50 sm:text-5xl lg:text-6xl">김재홍(JaeHong Kim)</h1>
+          <h1 className="text-4xl tracking-tight text-gray-50 sm:text-5xl lg:text-6xl">김재홍(JaeHong Kim)</h1>
           <p className="mt-4 text-lg text-gray-400">
             게임 개발 및 기획자 | 인디게임을 좋아하고 1인개발을 지향
           </p>
