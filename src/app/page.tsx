@@ -78,17 +78,17 @@ export default function Home() {
           <div className="rounded-lg bg-gray-100 p-6 shadow-md bg-gray-800">
             <div className="flex justify-center">
               <a href="https://github.com/GrandpaTalkWithTop-ProjectTeam/GrandpaProject">
-              <img
-                alt="GTWT"
-                className="mb-4 rounded-lg"
-                height="200"
-                src="/project-header003.gif"
-                style={{
-                  aspectRatio: "400/200",
-                  objectFit: "cover",
-                }}
-                width="400"
-              />
+                <img
+                  alt="GTWT"
+                  className="mb-4 rounded-lg"
+                  height="200"
+                  src="/project-header003.gif"
+                  style={{
+                    aspectRatio: "400/200",
+                    objectFit: "cover",
+                  }}
+                  width="400"
+                />
             </a>
             </div>
             <h3 className="text-2xl  text-gray-200">Grandpa Talk with Top</h3>
