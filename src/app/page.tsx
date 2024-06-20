@@ -6,8 +6,19 @@ import { Button } from "@/components/ui/button"
 export default function Home() {
   return (
     <>
-    <header className="w-full bg-gray-900 py-12 md:py-20 lg:py-24">
-      <div className="container mx-auto px-4 md:px-6">
+    <header className="relative w-full bg-gray-900 py-12 md:py-20 lg:py-24">
+      <div className="absolute inset-0">
+        <img
+          src="/NewGR200.png"
+          alt="Background"
+          className="w-full h-full object-cover opacity-30"
+          style={{
+            objectFit: "cover",
+            maxHeight: "100%"
+          }}
+        />
+      </div>
+      <div className="relative container mx-auto px-4 md:px-6">
         <div className="mx-auto max-w-3xl text-center">
           <h1 className="text-4xl font-bold tracking-tight text-gray-50 sm:text-5xl lg:text-6xl">김재홍(JaeHong Kim)</h1>
           <p className="mt-4 text-lg text-gray-400">
