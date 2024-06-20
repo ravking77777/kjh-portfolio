@@ -36,7 +36,8 @@ export default function Home() {
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
           <div className="rounded-lg p-6 shadow-md bg-gray-800">
             <div className="flex justify-center">
-              <a href="https://store.steampowered.com/app/1160020/AshenForest/">
+              <a href="https://store.steampowered.com/app/1160020/AshenForest/" 
+              className="hover:scale-105 hover:brightness-110 transition-transform duration-300">
                 <img
                   alt="AshenForest"
                   className="mb-4 rounded-lg"
@@ -58,7 +59,8 @@ export default function Home() {
           </div>
           <div className="rounded-lg p-6 shadow-md bg-gray-800">
             <div className="flex justify-center">
-              <a href="https://youtu.be/f7sTaOp76_w?si=ELAW5Dqk4MEGQblH">
+              <a href="https://youtu.be/f7sTaOp76_w?si=ELAW5Dqk4MEGQblH"
+              className="hover:scale-105 hover:brightness-110 transition-transform duration-300">
                 <img
                   alt="WaterBorne"
                   className="mb-4 rounded-lg"
@@ -80,7 +82,8 @@ export default function Home() {
           </div>
           <div className="rounded-lg bg-gray-100 p-6 shadow-md bg-gray-800">
             <div className="flex justify-center">
-              <a href="https://github.com/GrandpaTalkWithTop-ProjectTeam/GrandpaProject">
+              <a href="https://github.com/GrandpaTalkWithTop-ProjectTeam/GrandpaProject"
+              className="hover:scale-105 hover:brightness-110 transition-transform duration-300">
                 <img
                   alt="GTWT"
                   className="mb-4 rounded-lg"
@@ -102,7 +105,8 @@ export default function Home() {
           </div>
           <div className="rounded-lg bg-gray-100 p-6 shadow-md bg-gray-800">
             <div className="flex justify-center">
-              <a href="https://youtu.be/Q-wNL15Hn_I?si=1Kv1pUWA3JQ3n-P9">
+              <a href="https://youtu.be/Q-wNL15Hn_I?si=1Kv1pUWA3JQ3n-P9"
+              className="hover:scale-105 hover:brightness-110 transition-transform duration-300">
                 <img
                   alt="Hamelina"
                   className="mb-4 rounded-lg"
@@ -124,7 +128,8 @@ export default function Home() {
           </div>
           <div className="rounded-lg bg-gray-100 p-6 shadow-md bg-gray-800">
             <div className="flex justify-center">
-              <a href="https://youtu.be/lt3B4qHiRUU?si=Sd1rrkga0x0N-IaA">
+              <a href="https://youtu.be/lt3B4qHiRUU?si=Sd1rrkga0x0N-IaA"
+              className="hover:scale-105 hover:brightness-110 transition-transform duration-300">
                 <img
                   alt="NeckSouls"
                   className="mb-4 rounded-lg"
@@ -146,7 +151,8 @@ export default function Home() {
           </div>
           <div className="rounded-lg bg-gray-100 p-6 shadow-md bg-gray-800">
             <div className="flex justify-center">
-              <a href="https://youtu.be/lt3B4qHiRUU?si=Sd1rrkga0x0N-IaA">
+              <a href="https://youtu.be/lt3B4qHiRUU?si=Sd1rrkga0x0N-IaA"
+              className="hover:scale-105 hover:brightness-110 transition-transform duration-300">
                 <img
                   alt="Wanderer"
                   className="mb-4 rounded-lg"
