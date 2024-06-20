@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'MyFont';
+    src: url('/PFstardust.ttf') format('truetype'),
+         url('/PFstardust.ttf') format('woff'),
+         url('/PFstardust.ttf') format('woff2');
+    /* 추가적인 폰트 포맷들도 지정 가능 */
+    /* 예: woff, woff2 등 */
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; /* 폰트 빠르게 로드하기 위해 swap 사용 권장 */
+
+    
+  }
+  
+  h1, h2, h3, h4, label {
+    font-family: 'MyFont', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+    /* 기본적인 시스템 폰트들로 폴백 설정 */
+    
+  }
+
+body {
+    background-color: #141414; /* 검은색 배경색 */
+}
+
+.button {
+    background-color: #586379;
+}
