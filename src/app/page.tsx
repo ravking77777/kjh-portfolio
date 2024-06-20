@@ -8,18 +8,21 @@ export default function Home() {
     <>
     <header className="relative w-full bg-gray-900 py-12 md:py-20 lg:py-24">
       <div className="absolute inset-0">
-      <Image
-      alt="Background"
-      src="/NewGR200.png"
-      layout="fill"
-      className="object-cover opacity-30"
-      />
+      <img
+          src="/NewGR200.png"
+          alt="Background"
+          className="w-full h-full object-cover opacity-30"
+          style={{
+            objectFit: "cover",
+            maxHeight: "100%"
+          }}
+        />
       </div>
       <div className="relative container mx-auto px-4 md:px-6">
         <div className="mx-auto max-w-3xl text-center">
           <h1 className="text-4xl tracking-tight text-gray-50 sm:text-5xl lg:text-6xl">김재홍(JaeHong Kim)</h1>
           <p className="mt-4 text-lg text-gray-400">
-            게임 개발 및 기획자 | 인디게임을 좋아하고 1인개발을 지향
+            게임 개발 및 기획자 | 인디게임을 좋아하고 1인개발을 지향합니다.
           </p>
           <p className="mt-12 text-xl text-gray-200">
             안녕하세요! 저의 포트폴리오에 오신 것을 환영합니다...
@@ -168,7 +171,7 @@ export default function Home() {
     </section>
     <section className="w-full bg-gray-100 py-12 md:py-20 lg:py-24 bg-gray-800">
       <div className="container mx-auto px-4 md:px-6">
-        <h2 className="mb-8 text-3xl  tracking-tight text-gray-50">About</h2>
+        <h2 className="mb-8 text-3xl tracking-tight text-gray-50">About</h2>
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
           <div>
             <h3 className="mb-4 text-2xl text-gray-50">사용하는 툴들</h3>
