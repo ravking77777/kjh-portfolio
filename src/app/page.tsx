@@ -3,9 +3,36 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Button } from "@/components/ui/button"
 
+export const metadata = {
+  title: "김재홍 포트폴리오",
+  description: "김재홍의 포트폴리오 사이트입니다.",
+}
+
 export default function Home() {
   return (
     <>
+      <header className="fixed top-0 w-full bg-black py-4 z-50">
+        <nav className="container mx-auto px-4 md:px-6 flex justify-between items-center">
+          <div className="text-white text-xl">JaeHong Kim</div>
+          <ul className="flex space-x-4">
+            <li>
+              <a href="#home" className="text-gray-400 hover:text-white">Home</a>
+            </li>
+            <li>
+              <a href="#projects" className="text-gray-400 hover:text-white">Projects</a>
+            </li>
+            <li>
+              <a href="#about" className="text-gray-400 hover:text-white">About</a>
+            </li>
+            <li>
+              <a href="#contact" className="text-gray-400 hover:text-white">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <section id="home">
+        
     <header className="relative w-full bg-gray-900 py-12 md:py-20 lg:py-24">
       <div className="absolute inset-0">
       <img
@@ -30,6 +57,11 @@ export default function Home() {
         </div>
       </div>
     </header>
+      </section>
+      
+      
+    <section id="projects">
+      
     <section className="w-full py-12 md:py-20 lg:py-24">
       <div className="container mx-auto px-4 md:px-6">
         <h2 className="mb-8 text-3xl  tracking-tight text-gray-50">Featured Projects</h2>
@@ -175,6 +207,8 @@ export default function Home() {
         </div>
       </div>
     </section>
+    </section>
+    <section id="about">
     <section className="w-full bg-gray-100 py-12 md:py-20 lg:py-24 bg-gray-800">
       <div className="container mx-auto px-4 md:px-6">
         <h2 className="mb-8 text-3xl tracking-tight text-gray-50">About</h2>
@@ -204,6 +238,8 @@ export default function Home() {
         </div>
       </div>
     </section>
+    </section>
+    <section id="contact">
     <section className="w-full py-12 md:py-20 lg:py-24">
       <div className="container mx-auto px-4 md:px-6">
         <h2 className="mb-8 text-3xl  tracking-tight text-gray-50">Contact</h2>
@@ -211,31 +247,32 @@ export default function Home() {
           <form className="space-y-6">
             <div>
               <label className="mb-2 block text-sm font-medium text-gray-50" htmlFor="name">
-                Name
+                이름
               </label>
               <Input id="name" required type="text" />
             </div>
             <div>
               <label className="mb-2 block text-sm font-medium text-gray-50" htmlFor="email">
-                Email
+                이메일
               </label>
               <Input id="email" required type="email" />
             </div>
             <div>
               <label className="mb-2 block text-sm font-medium text-gray-50" htmlFor="message">
-                Message
+                내용
               </label>
               <Textarea id="message" required rows={5} />
             </div>
             <Button className="w-full" type="submit">
               <div className="w-full h-[78.85px] relative bg-black hover:scale-105 transition-transform duration-300">
                 <div className="w-full h-[78.85px] left-0 top-0 absolute bg-neutral-900 rounded-[49.41px] border border-cyan-400"></div>
-                <div className="left-[300px] top-[7.79px] absolute text-center text-white text-[22.08px] font-bold font-['Inter'] leading-[60.98px]">Submit</div>
+                <div className="left-[300px] top-[7.79px] absolute text-center text-white text-[22.08px] font-bold font-['Inter'] leading-[60.98px]">제출</div>
               </div>
             </Button>
           </form>
         </div>
       </div>
+    </section>
     </section>
   </>
   );
