@@ -228,7 +228,7 @@ export default function Home() {
               <Textarea id="message" required rows={5} />
             </div>
             <Button className="w-full" type="submit">
-              <div className="w-full h-[78.85px] relative hover:scale-105 hover:brightness-110 transition-transform duration-300">
+              <div className="w-full h-[78.85px] relative bg-black hover:scale-105 transition-transform duration-300">
                 <div className="w-full h-[78.85px] left-0 top-0 absolute bg-neutral-900 rounded-[49.41px] border border-cyan-400"></div>
                 <div className="left-[300px] top-[7.79px] absolute text-center text-white text-[22.08px] font-bold font-['Inter'] leading-[60.98px]">Submit</div>
               </div>
