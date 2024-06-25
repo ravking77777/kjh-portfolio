@@ -184,7 +184,7 @@ export default function Home() {
             <p className="text-gray-400">
               제가 게임을 개발할때 사용하는 툴들을 정리해보았습니다.
             </p>
-            <ul className="mt-4 text-gray-400">
+            <ul className="mt-4 list-disc space-y-2 pl-6 text-gray-400">
               <li>GameMaker Studio 2</li>
               <li>Unity</li>
               <li>Aseprite</li>
