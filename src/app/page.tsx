@@ -151,7 +151,7 @@ export default function Home() {
           </div>
           <div className="rounded-lg bg-gray-100 p-6 shadow-md bg-gray-800">
             <div className="flex justify-center">
-              <a href="https://youtu.be/lt3B4qHiRUU?si=Sd1rrkga0x0N-IaA"
+              <a href="https://blog.naver.com/ravking/220952539988"
               className="hover:scale-105 hover:brightness-110 transition-transform duration-300">
                 <img
                   alt="Wanderer"
