@@ -4,7 +4,7 @@ import { Textarea } from "@/components/ui/textarea"
 import { Button } from "@/components/ui/button"
 
 export const metadata = {
-  title: "김재홍 포트폴리오",
+  title: "김재홍의 포트폴리오",
   description: "김재홍의 포트폴리오 사이트입니다.",
 }
 
